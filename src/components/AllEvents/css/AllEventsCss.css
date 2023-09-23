@@ -1,0 +1,187 @@
+.allEventsPage{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.aboutEvent img{
+    height: 100%;
+}
+.aboutEvent{
+    height: 80vh;
+    width: 70vw;
+    background-color: red;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.aboutEventDescription{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutEventHead{
+    font-size: 3rem;
+    background-color: red;
+    height: 10vh;
+    width: 90%;
+    margin-top: 2vh;
+    /* margin-left: 1vw; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bolder;
+}
+.aboutEventShortDescription{
+    height: 5vh;
+    background-color: red;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    /* margin-left: 1vw; */
+    font-size: 2rem;
+    font-weight: 500;
+}
+.aboutEventFooter{
+    height: 10vh;
+    width: 10vw;
+    background-color: pink;
+    margin-top: 10vh;
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 29.6vw;
+}
+.aboutEventDesc{
+    margin-top: 2vh;
+    width: 90%;
+    background-color: red;
+    word-spacing: 0.3vw;
+}
+.eventRules{
+    width: 90%;
+    margin-top: 3vh;
+}
+.eventCategory{
+    height: 100vh;
+    width: 19vw;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-right-style: solid ;
+}
+.eventPoster{
+    
+}
+.events{
+    height: 100%;
+    width: 80%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.eventHeader{
+    height: 13vh;
+    width: 95%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: -0.2vw;
+    word-spacing: 0.5vw;
+}
+.eventCardWrapper{
+    height: 82vh;
+    width: 78vw;
+    /* background-color: gray; */
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+    row-gap: 3vh;
+    overflow: scroll;
+    margin-top: 4vh;
+    overflow-x: hidden;
+    margin-left: 1vw;
+}
+.eventCardWrapper::-webkit-scrollbar{
+    display: none;
+}
+.eventCard{
+    height: 48vh;
+    width: 17.9vw;
+    /* background-color: purple; */
+    cursor: pointer;
+    background: url(../images/bloodydaddyshahidkapoor31681304057.webp);
+    background-size: cover;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+.eventCard:hover{
+    border: 1px solid white;
+}
+.eventDiv{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    margin-top: 33vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.eventName{
+    font-size: 1.4rem;
+    margin-top: 0.5vh;
+}
+.eventDescr{
+    font-size: 1.2rem;
+    margin-top: 1vh;
+}
+.eventFee{
+    font-size: 1rem;
+    margin-top: 1vh;
+}
+
+.eventCategoryHead{
+    height: 10vh;
+    width: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+}
+.categories{
+    height: 85vh;
+    width: 90%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.category{
+    height: 5vh;
+    width: 80%;
+    background-color: black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.category:hover{
+    background-color: rgb(37, 36, 36);
+    border-radius: 0.4vw;
+}

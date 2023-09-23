@@ -1,0 +1,63 @@
+.twinkleStarsWrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.twinkleStars{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+.star1{
+    background: url("../images/stars/star1.png");
+    animation: twinkle 8s infinite ease-in-out alternate-reverse,bgMove 16s infinite linear; 
+}
+.star2{
+    background: url("../images/stars/star2.png");
+    animation: twinkle 9.5s infinite ease-in-out alternate-reverse,bgMove 16s infinite linear;
+
+}
+.star3{
+    background: url("../images/stars/star3.png");
+    animation: twinkle 11s infinite ease-in-out alternate-reverse,bgMove 16s infinite linear;
+
+}
+.star4{
+    background: url("../images/stars/star4.png");
+    animation: twinkle 12.5s infinite ease-in-out alternate-reverse,bgMove 16s infinite linear;
+}
+.star5{
+    background: url("../images/stars/star5.png");
+    animation: twinkle 13s infinite ease-in-out alternate-reverse,bgMove 16s infinite linear;
+}
+.star6{
+    background: url("../images/stars/star6.png");
+    animation: twinkle 14.5s infinite ease-in-out alternate-reverse,bgMove 16s infinite linear;
+}
+.star7{
+    background: url("../images/stars/star7.png");
+    animation: twinkle 16s infinite ease-in-out alternate-reverse,bgMove 16s infinite linear;
+}
+.star8{
+    background: url("../images/stars/star8.png");
+    animation: twinkle 17.5s infinite ease-in-out alternate-reverse,bgMove 16s infinite linear;
+}
+
+@keyframes twinkle {
+    0%,20%,40%,60%,80%,100%{
+        opacity: 0;
+    }
+    10%,30%,50%,70%,90%{
+        opacity: 1;
+    }
+}
+@keyframes bgMove {
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 2;
+    }
+}

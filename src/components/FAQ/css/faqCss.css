@@ -1,0 +1,33 @@
+.faqHeader{
+    font-size: 5rem;
+    font-weight: 800;
+    width: fit-content;
+    letter-spacing: -0.3vw;
+    word-spacing: 0.6vw;
+    margin-left: 3vw;
+}
+.faqWrapper{
+    height: 165vh;
+    /* background-color: red; */
+}
+.allFAQ{
+    height: fit-content;
+    /* background-color: green; */
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.faq{
+    height: 17vh;
+    width: 80vw;
+    /* background-color: #fff; */
+    border-radius: 10rem;
+    border: 4px solid white;
+    margin-top: 3vh;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

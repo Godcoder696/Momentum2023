@@ -1,0 +1,82 @@
+.eventHomePageWrapper{
+    height: 290vh;
+    width: 101vw;
+    /* background-color: red;  */
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute; */
+}
+.eventHeading{
+    /* margin-top: 13vh; */
+    font-size: 14rem;
+    font-weight: bolder;
+    letter-spacing: -0.5vw;
+    /* background-color: yellow; */
+}
+.homePageCard{
+    height: 100vh;
+    width: 48.5vw;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.homePageEvent{
+    margin-top: 12vh;
+    height: 210vh;
+    width: 100%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.eventVideo{
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: #fff; */
+    overflow: hidden;
+}
+.eventType{
+    font-size: 3rem;
+    letter-spacing: 0.4vw;
+}
+.eventName{
+    font-size: 7rem;
+    margin-top: -3vh;
+    font-weight: bolder;
+}
+.eventDesc{
+    font-size: 1.5rem;
+    margin-top: -1vh;
+    letter-spacing: 0.1vw;
+    word-spacing: 0.2vw;
+}
+.eventDescription{
+    margin-top: 5vh;
+    width: 90%;
+}
+.eventRow{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+.seeAll{
+    font-size: 4rem;
+    margin-top: 10vh;
+    font-weight: bold;
+    letter-spacing: -0.3vw;
+    word-spacing: 1vw;
+    border-radius: 10vw;
+    border: 3px solid white;
+    width: 35vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
